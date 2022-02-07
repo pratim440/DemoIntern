@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import BoxSlider from "./components/BoxSlider";
+import CareersSection from "./components/CareersSection";
+import Carousal from "./components/Carousal";
+import Featured from "./components/Featured";
+import Footer from "./components/Footer";
+import ImageBoxSlider from "./components/ImageBoxSlider";
+import ImageTitleBox from "./components/ImageTitleBox";
+import Landing from "./components/Landing";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Navbar />
+      <Landing />
+      <BoxSlider />
+      <ImageBoxSlider />
+      <Carousal title='Best employment opportunities' buttonTitle='HIRE NOW' />
+      <ImageTitleBox title='Most Popular Courses' />
+      <CareersSection />
+      <Carousal
+        title='Help you identify relevance skill gaps in workforce'
+        buttonTitle='FIND YOUR CAREER'
+        carousal={2}
+      />
+      <ImageTitleBox title={"Blogs"} />
+      <Featured />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,66 @@
+.footerContainer {
+  background-color: #2e2e2e;
+  width: 100vw;
+  padding: 3rem 8rem;
+  color: #fff;
+}
+.section1 {
+  display: flex;
+  justify-content: space-between;
+}
+.innerSection1 {
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.innerSection1 h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.innerSection1 input {
+  border-style: none;
+  height: 4rem;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+.icons {
+  width: 0.5rem;
+  height: 3rem;
+  background-color: gray;
+  margin: 1.5rem;
+  border-radius: 50%;
+}
+.innerSection1 div {
+  width: 100%;
+  margin-top: 1.2rem;
+  display: flex;
+}
+.section2 {
+  display: flex;
+  width: 90%;
+  height: 30rem;
+  margin: 6rem 0 0;
+}
+.innerSection2 {
+  width: 25%;
+}
+.innerSection2 h5 {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+.innerSection2 p {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+.section3 h5 {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+.section3 p {
+  font-size: 1.4rem;
+  margin-bottom: 1.8rem;
+  line-height: 1.6;
+}

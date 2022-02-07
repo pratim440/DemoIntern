@@ -1,0 +1,13 @@
+.featureDiv h2 {
+  font-weight: 400;
+  font-size: 3.2rem;
+  margin: 3rem 0 0;
+}
+.featureDiv {
+  width: 90vw;
+  margin-bottom: 3rem;
+}
+.featureDiv p {
+  font-size: 1.4rem;
+  margin: 3rem 0;
+}

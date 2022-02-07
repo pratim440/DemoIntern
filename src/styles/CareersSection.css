@@ -1,0 +1,32 @@
+.careerDiv {
+  width: 90vw;
+  margin-bottom: 2rem;
+}
+.careerDiv h2 {
+  font-weight: 400;
+  font-size: 3.2rem;
+  margin: 3rem 0;
+}
+.careerImage {
+  width: 15rem;
+  height: 15rem;
+  background-color: gray;
+  border-radius: 50%;
+}
+.careerBox p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+.careerBox {
+  display: grid;
+  width: 15rem;
+  place-items: center;
+  margin: 4.5rem;
+}
+.careerOuter {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 3;
+  justify-content: space-between;
+}
